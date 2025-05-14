@@ -21,5 +21,5 @@ models();
 routes(app);
 errorHandler();
 
-const port = process.env.PORT || config.get("port");
+const port = process.env.PORT || config.get("port")||3100;
 app.listen(port, () => console.log(`connected on port ${port}`));
