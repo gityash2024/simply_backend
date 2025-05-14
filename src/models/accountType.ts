@@ -1,0 +1,13 @@
+import { Schema } from "mongoose";
+
+export const accountTypeSchema = new Schema(
+  {
+    _id: { type: Schema.Types.ObjectId, auto: true },
+    accountCode: { type: String, default: "" },
+    description: { type: String, default: "" },
+    status: { type: Boolean, default: true },
+    createdAt: { type: Date, default: new Date().toISOString() },
+    updatedAt: { type: Date, default: new Date().toISOString() },
+  },
+  { collection: "accountType" }
+);

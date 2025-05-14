@@ -1,0 +1,6 @@
+{
+  "port": 3100,
+  "dbUrl": "mongodb+srv://simplyinvest003:iz7esaeqFF0XG2oa@simplyinvest.jfkxl6i.mongodb.net/?retryWrites=true&w=majority&appName=simplyInvest",
+  "encryptionKey": "simply-invest-encryption-key",
+  "jwtPrivateKey": "simply-invest-private-key"
+}
